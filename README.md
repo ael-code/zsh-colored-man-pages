@@ -1,7 +1,7 @@
 # zsh colored man pages
 zsh plugin that colorifies man pages.
 
-It simply provides a `man` wrapper function that show colored manpages.
+It simply provides a `man` wrapper function that shows colored manpages.
 
 
 ### Installation 
@@ -18,6 +18,6 @@ source colored-man-pages.plugin.zsh && man less
 ```
 
 ### Rationale
-The wrapper function use the `LESS_TERMCAP_*` environment variables to set the ASNI escape sequences that `less` uses to print special strings (bold, underline, reversed, etc.. ).
+The wrapper function uses the `LESS_TERMCAP_*` environment variables to set the ASNI escape sequences that `less` uses to print special strings (bold, underline, reversed, etc.. ).
 
 ANSI escape sequences are retrieved from the terminfo database through the `tput` command.
