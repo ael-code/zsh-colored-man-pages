@@ -1,4 +1,4 @@
-# termcap  
+# termcap
 # ks       make the keypad send commands
 # ke       make the keypad send digits
 # vb       emit visual bell
